@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  	<script src="jquery.searchbox.js"></script>
+    <title>jQuery plugin</title>
+  </head>
+  <body>
+    <input id="search" type="text" placeholder="Search"></input>
+    <script type="text/javascript">
+    	$(function(){
+    		$("#search").searchbox({
+	    		width: 200,
+	    		duration: 300,
+	    		action: function(val){
+	    			alert(val);
+	    		}
+	    	});
+    	});
+    </script>
+  </body>
+</html>
