@@ -1,3 +1,11 @@
+/*!
+ * jQuery Expandable Input Plugin v1.0
+ * https://github.com/armmer1/expandable-input
+ *
+ * Copyright 2014, Nattawat Nonsung
+ */
+
+
 /**
 * Use immediately Invoked Function Expression to
 * - Prevent conflicting with other libary on alias $
@@ -13,13 +21,6 @@
     }, options );
 
 		var width = this.width();
-
-  //   this.css({
-  //   	"-webkit-transition": ("width "+settings.duration+"s"),
-  //   	"-moz-transition": ("width "+settings.duration+"s"),
-  //   	"transition": ("width "+settings.duration+"s"),
-  //   	"width": width
-		// });
 
 		this.on("focus", function(){
 			// $(this).css({width: settings.width});
