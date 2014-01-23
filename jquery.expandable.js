@@ -4,7 +4,7 @@
 * - Scode varaible to be private
 */
 (function( $ ) {
-  $.fn.searchbox = function(options) {
+  $.fn.expandable = function(options) {
 
 		// Define default setting
 		var settings = $.extend({
