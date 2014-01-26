@@ -9,7 +9,7 @@
 /**
 * Use immediately Invoked Function Expression to
 * - Prevent conflicting with other libary on alias $
-* - Scode varaible to be private
+* - Scope varaible to be private
 */
 (function( $ ) {
   $.fn.expandable = function(options) {
