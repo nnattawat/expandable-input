@@ -20,7 +20,7 @@
 			duration: 300
     }, options );
 
-		var width = this.width();
+		var width = this.outer();
 
 		this.on("focus", function(){
 			// $(this).css({width: settings.width});
